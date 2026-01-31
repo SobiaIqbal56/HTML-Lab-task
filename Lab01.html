@@ -1,0 +1,236 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Engineeing Lab 1</title>
+</head>
+<body>
+    <h1>Lab task : Html Lists </h1>
+    <ol>
+        <li>chapter 1
+        <ol type="A">
+         <li> introductin</li>
+         <li>HTML</li>
+    </ol>
+        </li>
+         <li>Chapter 2
+        <ol type="I">
+         <li>Tags</li>
+        <li>Lists
+         <ul>
+          <li>This the first item of the second item
+     <ol>
+         <li>And this is a numbered subitem of first subitem</li>
+    </ol>
+        </li>           
+        <li>This is the second item of the second item</li>
+        </ul>
+        </li>
+    </ol>
+        <dl>
+             <dt><b>Title 1</b></dt>
+             <dd>Definition 1</dd>
+
+            <dt><b>Title 2</b></dt>
+            <dd>Definitin 2</dd>
+            <dd>Definitin 3</dd>
+        </dl>
+    <ul>
+        <li>Unordered list item 1</li>
+        <li>Unordered list item 2</li>
+    </ul>
+    </li>
+        <li>Chapter 3</li>
+    </ol>
+</body>
+</html>
+-->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2 align="center" style="color:red; ">REGISTRATION FORM</h2>
+
+<form>
+<table border="1" align="center" cellpadding="5" cellspacing="0" width="60%">
+
+<tr>
+    <th colspan="2">INFORMATION TABLE</th>
+</tr>
+
+<tr>
+    <td align="right">Name</td>
+    <td><input type="text"><br>
+        <small>Enter your full name</small>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Email</td>
+    <td>
+        <input type="email" ><br>
+    <small>Enter an internet contact address</small>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Password</td>
+    <td>
+    <input type="password"><br>
+    <small>Enter a code to identify you</small>
+   </td>
+</tr>
+
+<tr>
+    <td align="right">Address</td>
+ <td>
+    <input type="text"><br>
+    <small>Enter complete address</small>
+</td>
+</tr>
+
+<tr>
+    <td align="right">Country</td>
+    <td>
+        <select>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Gender</td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Hobbies</td>
+    <td>
+        <input type="checkbox"> Reading <br>
+        <input type="checkbox"> Listening Music <br>
+        <input type="checkbox"> Gardening <br>
+        <input type="checkbox"> Swimming <br>
+        <input type="checkbox"> Athletics <br>
+        <small>check all that apply</small>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Your Website</td>
+    <td>
+        <input type="url" placeholder="http://">
+        <br>
+        <small>provide your website URL if exists (not necessary)</small>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Other Information About You</td>
+    <td>
+        <textarea rows="5" cols="40"></textarea><br>
+        <small>write any other information that is not present here</small>
+    </td>
+</tr>
+
+<tr>
+    <th colspan="2">SEND DETAILS</th>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="SEND">
+        <input type="reset" value="RESET">
+    </td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Elements</title>
+</head>
+<body>
+
+<h3>HTML 5 Color Element</h3>
+<form>
+    Select your favorite color:
+    <input type="color">
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<h3>HTML 5 Input Restriction as Number</h3>
+<form>
+    Quantity (between 1 and 5):
+    <input type="number" min="1" max="5">
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<h3>HTML 5 Data Encryption</h3>
+<form>
+    Username:
+    <input type="text" value="admin"><br><br>
+
+    Encryption:
+    <select>
+        <option>1024 (Low Grade)</option>
+        <option selected>2048 (High Grade)</option>
+        <option>4096 (Very High Grade)</option>
+    </select>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<h3>HTML 5 Date Picker</h3>
+<form>
+    Birthday:
+    <input type="date">
+    <input type="submit" value="Send">
+</form>
+
+<hr>
+
+<h3>HTML 5 Audio Element</h3>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
+
+<hr>
+
+<h3>HTML 5 Canvas (graphics and text)</h3>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid black;">
+</canvas>
+
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("Hello World", 50, 80);
+</script>
+
+</body>
+</html>
+
+
